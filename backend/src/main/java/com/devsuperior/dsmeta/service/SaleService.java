@@ -21,7 +21,7 @@ public class SaleService {
 	public Page<Sale> findSales(String minDate, String maxDate, Pageable pageable) {
 //		if (saleRepository.findAll().isEmpty()) {
 //			System.out.println("Ainda não há nada cadastrado!");
-//			return new ArrayList<Sale>();
+//			return new ArrayList<Sale>(); Vf611!@zy4%Ivq$l
 //		}
 		
 		LocalDate today = LocalDate.ofInstant(Instant.now(), ZoneId.systemDefault());
